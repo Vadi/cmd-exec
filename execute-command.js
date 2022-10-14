@@ -31,7 +31,8 @@ try {
         }).toString()
 
         console.log(cmd)
-        console.log("\t", result)
+        console.log()
+        console.log(result)
     }
 } catch (err) {
     console.error("Error occurred .. exiting")
